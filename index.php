@@ -1,0 +1,475 @@
+<?php
+$current_year = date("Y");
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Infotec Studio - Desarrollo de software a la medida en Cuba. Soluciones web, móviles y sistemas personalizados.">
+    <meta name="keywords" content="desarrollo software Cuba, aplicaciones web, desarrollo móvil, Sancti Spíritus, Infotec Studio">
+    <meta name="author" content="Infotec Studio">
+    
+    <title>Infotec Studio | Desarrollo de Software a la Medida</title>
+    
+    <!-- Font Awesome -->
+    
+    <link rel="stylesheet" href="./assets/webfonts/css/all.css">
+    
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo/logo.png" alt="Logo Infotec Studio" class="logo-img"> Infotec Studio
+            </a>
+            <button class="sidebar-toggle" aria-expanded="false" aria-controls="sidebar">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-list">
+    <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> Sobre Nosotros</a></li>
+    <li><a href="#services" class="nav-link"><i class="fas fa-cogs"></i> Servicios</a></li>
+    <li><a href="#technologies" class="nav-link"><i class="fas fa-code"></i> Tecnologías</a></li>
+    <li><a href="#projects" class="nav-link"><i class="fas fa-briefcase"></i> Proyectos</a></li>
+    <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+</ul>
+
+        </nav>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar-overlay"></div>
+    <aside id="sidebar" class="sidebar" aria-hidden="true">
+        <button class="close-sidebar"><i class="fas fa-times"></i></button>
+        <nav class="sidebar-nav">
+        <ul class="sidebar-list">
+    <li><a href="#about" class="sidebar-link"><i class="fas fa-user"></i> Sobre Nosotros</a></li>
+    <li><a href="#services" class="sidebar-link"><i class="fas fa-cogs"></i> Servicios</a></li>
+    <li><a href="#technologies" class="sidebar-link"><i class="fas fa-code"></i> Tecnologías</a></li>
+    <li><a href="#projects" class="sidebar-link"><i class="fas fa-briefcase"></i> Proyectos</a></li>
+    <li><a href="#contact" class="sidebar-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+</ul>
+
+        </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main>
+       <!-- Hero Section con Efectos y Botón de Scroll -->
+<section class="hero">
+  <div class="particles" id="particles-js"></div>
+  <div class="container">
+    <h1>Transformamos ideas en soluciones digitales</h1>
+    <p class="subtitle">Desarrollo de software a la medida para tu negocio</p>
+    <p class="hero-text">En Infotec Studio creamos aplicaciones web y móviles personalizadas que impulsan el crecimiento de tu empresa</p>
+    <div class="hero-buttons">
+      <a href="#contact" class="cta-button">Contáctanos</a>
+      <a href="#projects" class="cta-button secondary">Ver Proyectos</a>
+    </div>
+    
+    <!-- Botón de desplazamiento hacia abajo -->
+    <div class="scroll-down">
+      <a href="#about" class="scroll-down-btn" aria-label="Desplazarse hacia abajo">
+        <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+        <!-- Sobre Nosotros -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre Nosotros</h2>
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p>Infotec Studio es una empresa cubana de desarrollo de software con sede en Sancti Spíritus, Cuba. Nos especializamos en crear soluciones tecnológicas personalizadas que se adaptan a las necesidades específicas de cada cliente.</p>
+                        
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-bullseye feature-icon"></i>
+                                <h3>Misión</h3>
+                                <p>Proporcionar soluciones de software innovadoras y de alta calidad que impulsen el éxito de nuestros clientes.</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-eye feature-icon"></i>
+                                <h3>Visión</h3>
+                                <p>Ser reconocidos como líderes en desarrollo de software personalizado en la región central de Cuba.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-text">Años de experiencia</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-text">Proyectos completados</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-text">Clientes satisfechos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="./assets/images/marketing/advertising.png" alt="Equipo de Infotec Studio">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="section-subtitle">Soluciones tecnológicas diseñadas para tus necesidades</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Desarrollo Web</h3>
+                        <p>Aplicaciones web personalizadas, sistemas de gestión y plataformas digitales a medida con las últimas tecnologías.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Aplicaciones Móviles</h3>
+                        <p>Desarrollo de apps nativas e híbridas para iOS y Android que llegan a tus clientes donde estén.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <h3>Tiendas Online</h3>
+                        <p>E-commerce completos con carrito de compras, pasarelas de pago y gestión de inventario.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Sistemas Personalizados</h3>
+                        <p>Software empresarial adaptado a tus procesos específicos para mejorar la productividad.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Solutions</h3>
+                        <p>Implementación y migración a la nube para mayor escalabilidad y disponibilidad.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-search-dollar"></i>
+                        </div>
+                        <h3>Consultoría TI</h3>
+                        <p>Asesoramiento especializado para optimizar tus procesos con tecnología.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tecnologías -->
+        <section id="technologies" class="section technologies-section">
+            <div class="container">
+                <h2 class="section-title">Tecnologías que Usamos</h2>
+                <p class="section-subtitle">Herramientas modernas para resultados excepcionales</p>
+                
+                <div class="tech-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="frontend">Frontend</button>
+                        <button class="tab-button" data-tab="backend">Backend</button>
+                        <button class="tab-button" data-tab="mobile">Mobile</button>
+                        <button class="tab-button" data-tab="database">Bases de Datos</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="frontend">
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <img src="./assets/images/icons/picture.svg" alt="HTML5">
+                                <span>HTML5</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="images/icons/picture.svg" alt="CSS3">
+                                <span>CSS3</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="./assets/images/icons/picture.svg" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="./assets/images/icons/picture.svg" alt="React">
+                                <span>React</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="./assets/images/icons/picture.svg" alt="Vue.js">
+                                <span>Vue.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="images/icons/picture.svg" alt="Bootstrap">
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="backend">
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <img src="./assets/images/tech/php.png" alt="PHP">
+                                <span>PHP</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="./assets/images/tech/laravel.png" alt="Laravel">
+                                <span>Laravel</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="./assets/images/tech/nodejs.png" alt="Node.js">
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="./assets/images/tech/express.png" alt="Express">
+                                <span>Express</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="./assets/images/tech/python.png" alt="Python">
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="./assets/images/tech/django.png" alt="Django">
+                                <span>Django</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Más contenidos de pestañas... -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <p class="section-subtitle">Algunos de nuestros trabajos recientes</p>
+                
+                <div class="projects-filter">
+                    <button class="filter-button active" data-filter="all">Todos</button>
+                    <button class="filter-button" data-filter="web">Web</button>
+                    <button class="filter-button" data-filter="mobile">Móvil</button>
+                    <button class="filter-button" data-filter="ecommerce">E-commerce</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="./assets/images/projects/screenshot.png" alt="Sistema de Gestión">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i> Ver Demo</a>
+                                <a href="#" class="project-link"><i class="fas fa-code"></i> Detalles</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Sistema de Gestión Integral</h3>
+                            <p>Aplicación web para administración de inventarios, ventas y reportes financieros.</p>
+                            <div class="project-tech">
+                                <span>Laravel</span>
+                                <span>Vue.js</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="./assets/images/projects/screenshot.jpg" alt="Sistema de Gestión">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i> Ver Demo</a>
+                                <a href="#" class="project-link"><i class="fas fa-code"></i> Detalles</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Sistema de Gestión Integral</h3>
+                            <p>Aplicación web para administración de inventarios, ventas y reportes financieros.</p>
+                            <div class="project-tech">
+                                <span>Laravel</span>
+                                <span>Vue.js</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Más proyectos... -->
+                </div>
+                
+                <div class="text-center">
+                    <a href="#" class="cta-button">Ver más proyectos</a>
+                </div>
+            </div>
+        </section>
+
+
+                <!-- Equipo de Trabajo -->
+                <section id="team" class="section team-section">
+            <div class="container">
+                <h2 class="section-title">Nuestro Equipo</h2>
+                <p class="section-subtitle">Conoce al desarrollador detrás de Infotec Studio</p>
+                
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="./assets/images/team/edisbel.png" alt="Miembro del equipo 1">
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <h3>Edisbel Ramirez Lovatos</h3>
+                        <p class="member-role">CEO Infotec Studio - Desarrollador</p>
+                        <p class="member-bio">Desarrollador Full Stak con más de 10 años de experiencia en sistemas Windows , Linux y desarrollo de software.</p>
+                    </div>    
+            </div>
+        </section>
+
+       
+        <!-- Contacto -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Contáctanos</h2>
+                <p class="section-subtitle">Estamos listos para convertir tu idea en realidad</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Ubicación</h3>
+                                <p>Sancti Spíritus, Cuba</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>soporte.infotecstudio@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Teléfono</h3>
+                                <p>+53 54850578</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nombre completo" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Asunto">
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Enviar Mensaje <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <img src="./assets/images/logo/logo.png" alt="KELOS" class="footer-logo">
+                    <p>Desarrollo de software a la medida</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-reddit"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Infotec Studio</h3>
+                    <ul>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#technologies">Tecnologías</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-resources">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Foro</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-legal">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Licencia</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Términos de uso</a></li>
+                        <li><a href="#">Código de conducta</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <?php echo $current_year; ?> Infotec Studio. Todos los derechos reservados.</p>
+                <p>Infotec Studio ® es una marca registrada de Edisbel Ramirez Lovatos.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón WhatsApp -->
+    <a href="https://wa.me/5354850578" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
